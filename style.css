@@ -8,8 +8,9 @@ h1{
 .orage-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,26 @@ section{
 .top-banner{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-iteam{
+    box-shadow: 10px 10px 40px  yellowgreen;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:20px ;
+    border-radius: 10px;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+    border-left: 10px solid;
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
 }
